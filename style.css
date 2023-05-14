@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.card {
+    width: 600px;
+    box-shadow: 0px 10px 55px -3px rgba(0,0,0,0.1);
+}
+
+/* ==============================
+             FORM
+=============================== */
+
+form {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+    gap: 1em;
+    align-items: stretch;
+}
+
+button,
+select {
+    padding: 0.5em;
+}
+
+select {
+    width: 100%;
+}
+
+input {
+    height: auto;
+    width: 100px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ==============================
+            COLOR DIV
+=============================== */
+
+main {
+    height: 200px;
+    display: flex;
+}
+
+.color-div {
+    width: 120px;
+    border: 1px black solid;
+}
